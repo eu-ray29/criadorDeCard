@@ -1,0 +1,26 @@
+section.criador_cards {
+    padding: 1rem;
+}
+
+.form_criador_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(243, 247, 243);
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+input {
+    width: 300px;
+    padding: .7rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(227, 239, 250);
+}
+
+label {
+    font-weight: bold;
+    color: rgb(2, 59, 2);
+}
