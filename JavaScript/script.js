@@ -1,5 +1,6 @@
 const botao = document.getElementById('criarCard');
 const cards = document.getElementById('cardsContainer');
+const form = document.querySelector('form');
 
 botao.addEventListener('click', function criarCard(e) {
     e.preventDefault();
@@ -36,7 +37,13 @@ botao.addEventListener('click', function criarCard(e) {
 
         cards.appendChild(div);
 
+        limparCampos();
     } else {
         alert('Preencha todos os campos e escolha uma imagem');
     }
 });
+
+function limparCampos() {
+    const inputs = document.querySelectorAll("form input");
+    inputs.forEach(input => input.value = ""); // zera cada campo
+  }
