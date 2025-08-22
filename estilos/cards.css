@@ -19,13 +19,16 @@
     border-radius: 10px;
     width: 250px;
     height: 350px;
+    border: 2px solid rgb(228, 17, 17);
 }
 
 img {
-    width: 100%;
+    width: 180px;
     height: 200px;
     align-self: center;
     object-fit: fill;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 17, 17);
 }
 
 .descricao {
@@ -45,4 +48,12 @@ button {
     color: white;
     border-radius: 10px;
     font-weight: bold;
+}
+
+h1 {
+    align-self: center;
+}
+
+span {
+    color: rgb(228, 17, 17);
 }
