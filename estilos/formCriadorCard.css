@@ -46,7 +46,7 @@ button {
         justify-content: center;
         align-items: center;
         gap: 1rem;
-        background: black;
+        background: rgb(232, 240, 232);
         padding: 1rem .6rem;
         margin: 1rem 0;
     }
