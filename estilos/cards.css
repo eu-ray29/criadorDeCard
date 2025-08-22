@@ -41,14 +41,7 @@ span {
     font-weight: bold;
 }
 
-button {
-    padding: .5rem;
-    background-color: rgb(4, 38, 68);
-    border: none;
-    color: white;
-    border-radius: 10px;
-    font-weight: bold;
-}
+
 
 h1 {
     align-self: center;

@@ -26,6 +26,15 @@ label {
     color: rgb(238, 25, 25);
 }
 
+button {
+    padding: .7rem;
+    background-color: rgb(87, 8, 8);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 @media (max-width: 600px) {
     section.criador_cards {
         padding: .50;
