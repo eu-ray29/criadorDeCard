@@ -6,3 +6,13 @@ header {
     color: rgb(1, 37, 1);
     background-color: aliceblue;
 }
+
+@media (max-width: 600px) {
+    header {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(1, 37, 1);
+    background-color: aliceblue;
+}
+}
